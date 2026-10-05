@@ -1,0 +1,40 @@
+SAM SERVICE — ARCHIVE / DOSSIER DE TRANSMISSION V10
+
+Ce dossier contient les fichiers du site actuellement utilisés, avec le nouveau logo SAM SERVICE.
+
+DOMAINE
+- samservicenettoyage.fr
+- Le fichier CNAME doit rester présent pour GitHub Pages.
+
+DEPOT GITHUB
+- salemprivatair-dotcom/sam-service-nettoyage
+- Branche : main
+
+POUR UNE FUTURE MISE A JOUR
+1. Conserver une copie de ce ZIP avant toute modification.
+2. Modifier les fichiers dans VS Code.
+3. Tester le site et le formulaire.
+4. Dans le dossier Git déjà connecté au dépôt :
+   git status
+   git add .
+   git commit -m "Description de la modification"
+   git push
+5. Vérifier ensuite le site en production.
+
+IMPORTANT — SUPABASE / EMAILS
+- Le formulaire du site envoie les demandes vers Supabase.
+- L'automatisation d'e-mails utilise une Edge Function côté Supabase et Resend.
+- Les secrets (RESEND_API_KEY, WEBHOOK_SECRET, service_role, mot de passe BDD) ne doivent jamais être ajoutés à ce dossier ni à GitHub.
+- Le ZIP ne constitue donc pas une sauvegarde des secrets Supabase/Resend ; ceux-ci restent gérés sur les plateformes concernées.
+
+FICHIERS PRINCIPAUX
+- index.html : contenu du site
+- styles.css : design
+- script.js : comportement et formulaire
+- assets/logo.png : logo actuel SAM SERVICE
+- assets/ : images des services
+- mentions-legales.html
+- confidentialite.html
+- CNAME : domaine GitHub Pages
+
+Avant toute grosse modification, faire une nouvelle archive datée.

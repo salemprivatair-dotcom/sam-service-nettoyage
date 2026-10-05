@@ -1,0 +1,18 @@
+SAM SERVICE — V11 SEO
+
+Cette version conserve le formulaire Supabase et les fichiers de la V10.
+Ajouts SEO :
+- titres et descriptions optimisés
+- URL canonique et balises robots
+- données structurées LocalBusiness / Service
+- robots.txt et sitemap.xml
+- 6 pages de services locales pour Nantes
+- liens internes depuis la page d’accueil
+
+Après publication GitHub :
+1. Vérifier le site et le formulaire.
+2. Ouvrir https://samservicenettoyage.fr/sitemap.xml
+3. Ajouter le site à Google Search Console et soumettre sitemap.xml.
+4. Demander l’indexation de la page d’accueil et des principales pages services.
+
+Aucun secret Resend ou WEBHOOK_SECRET n’est inclus dans cette archive.

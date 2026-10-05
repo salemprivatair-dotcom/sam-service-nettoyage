@@ -132,3 +132,6 @@ footer a:hover{color:var(--olive)!important}
 .form-status.error{color:#9f2f3f}
 .form-status.sending{color:#071d3b}
 #devis-submit:disabled{opacity:.65;cursor:wait}
+
+/* V11 SEO - pages services */
+.seo-page{max-width:1120px;margin:0 auto;padding:72px 24px}.seo-page h1{font-size:clamp(2.2rem,5vw,4rem);line-height:1.05;margin:.2em 0}.seo-page h2{margin-top:2rem}.seo-page .lead{max-width:780px}.seo-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin:30px 0}.seo-box{padding:24px;border:1px solid #dfe5e2;border-radius:18px;background:#fff}.seo-cta{margin:40px 0;padding:30px;border-radius:22px;background:#071D3B;color:#fff}.seo-cta a{margin-right:12px}.breadcrumbs{font-size:.92rem;margin-bottom:24px}.breadcrumbs a{text-decoration:none}.service-seo-links{max-width:1120px;margin:0 auto;padding:20px 24px 60px}.service-seo-links .seo-grid a{font-weight:700;text-decoration:none}
